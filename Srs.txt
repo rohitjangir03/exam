@@ -1,0 +1,63 @@
+           Online Project Management    
+
+                     
+1. Introduction:
+  1.1 Purpose
+   The purpose of this document is to provide a detailed description of the requirements for the Online Project Management System. It outlines the functional and non-functional requirements, constraints, and interfaces of the system.
+1.2 Scope
+   The  Online Project Management System is a web-based application that allows users to manage projects for various Companies in any field like IT, Infrastructure, Corporate works, etc. The system will provide an easy-to-use interface for users to register for events, view available plans , make reservations , and complete the process.
+
+2. Functional Requirements
+    (User indicates : Companies/Organization/individual)
+   2.1 Company Registration
+      - Users should be able to create a new account by providing their basic information.
+      - Users should be able to log in using their registered credentials.
+
+   2.2 Event Management
+      - Administrators should be able to add, update, and delete events.
+      - Each event should have details such as Company Name, Registed date, time, location, and current Project.
+
+   2.3 Project Manager
+      - Users should be able to search for events based on different criteria like name, date, or location.
+      - Users should be able to view current handling projects for a specific event.
+      - Users should be able to select projects and request for unhandling.
+      - Users should be able to proceed to the payment process and complete the subscription.
+
+   2.4 Payment Processing
+      - The system should support secure online payment methods.
+      - Users should be able to enter their payment details and complete the transaction.
+      - The system should generate a unique id for each tracsaction and confirmation sms should be sent for successful transactions.
+
+   2.5 Project Management
+      - Users should be able to view their Project history.
+      - Users should be able to send reuest tounhandling the project.
+      - Request should be approved by the project manager only.
+      - Project should be Delivered by Delivery Manager on Sucessful completion.
+      - Project Manager should be able to view and manage all the projects neing Handled or unhandled
+
+3. Non Functional
+   3.1 Performance : Performance of the website should be good,rendering time should be less, it should have           the capaility to handle multiple users.
+      - The system should handle concurrent user requests without significant performance degradation.
+      - The response time for searching events and booking tickets should be minimal.
+
+   3.2 Security
+      - User passwords should be securely stored using encryption.
+      - The payment processing should be done using secure protocols and comply with industry standards.
+      - Access to administrative functions should be restricted to authorized personnel.
+
+   3.3 Usability
+      - The user interface should be intuitive and user-friendly.
+      - Error messages should be clear and detailed
+
+   3.4 Availaibility
+      - Should be available on all the devices.
+      - Should be avaialbe on  different websites
+  
+   3.5 Portablity
+     - Should be protable 
+     - Have the capailbility to run on all devices
+
+   3.6 Safety
+     - Should be safe to use
+     - should have mutilple safety layers and firewall protection
+

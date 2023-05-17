@@ -1,0 +1,58 @@
+Business Entities
+
+
+Tables Required :
+
+1: Employee 
+ EmpId - Empolyee Id Number  (PK)
+ EName - Employee Name
+ Email - Employee Email
+ Contact - Employee Mobile Number
+ Mgr - Manger's id       (FK)
+ Deptno - department number   (FK)
+  Pid - ProjectId(Fk)
+
+2: Dept
+ DeptNo - Department Number (PK)
+ Dname - Department Name
+ Desc - Deprtment Description
+ 
+3: StakeHolder
+ Sid - Stakeholders Id  (PK)
+ Sname - Stakeholder's Name
+ Mgr - Alloted Manager   (FK)
+
+4: Delivery Manager
+ Did - Delvery Manager Id (PK)
+ Dname - Delvery Manager Name
+ Mgr - Manger's Id (FK)
+ Location - location of Delvery Manager 
+ Pid - ProjectId (FK)
+
+5: Project Manager 
+ MgrId - Manager's Id (PK)
+ Mname - Managers Name 
+ Contact - Contact number
+ Email - Mail id of manager
+ Deptno - Departments number(Fk)
+ Pid - ProjectId (FK)
+
+6: Project 
+ Pid - ProjectId (PK)
+ Pname - Project Name
+ Pdsc - Project Description
+ userName - User / Company / Organization's Name
+ status - Handled or Unhandled
+
+
+
+Business Operations :
+
+  Login/ logout
+  Authentication/Authrization
+  Safe Payment 
+  Easy to register
+  Easy to vlidte 
+  Easy to handle status
+  
+ 
